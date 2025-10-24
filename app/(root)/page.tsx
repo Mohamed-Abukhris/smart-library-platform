@@ -1,9 +1,16 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import BookOverview from "@/components/BookOverview";
+import BookList from "@/components/BookList";
+import { sampleBooks } from "@/constants";
 
 const Home = () => (
   <>
-    <Button>Click here</Button>
+    <BookOverview {...sampleBooks[0]} />
+
+    <BookList
+      title="Latest Books"
+      books={sampleBooks}
+      containerClassName="mt-28"
+    />
   </>
 );
 
