@@ -15,7 +15,7 @@ const {
 
 const authenticator = async () => {
   try {
-    const response = await fetch(`${config.env.apiEndpoint}/api/auth/imagekit`);
+    const response = await fetch("/api/auth/imagekit");
 
     if (!response.ok) {
       const errorText = await response.text();
@@ -48,7 +48,7 @@ const FileUpload = ({
 
     toast({
       title: `upload failed`,
-      description: `Your could not be uploaded. Please try again.`,
+      description: `Your University ID Card could not be uploaded. Please try again.`,
       variant: "destructive",
     });
   };
