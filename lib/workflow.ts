@@ -33,3 +33,5 @@ export const sendEmail = async ({
     },
   });
 };
+// Resend.com doesn't allow free domains
+// In case you want it to work you got to buy one
