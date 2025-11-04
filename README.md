@@ -39,6 +39,7 @@ A modern, full-stack web platform for managing university library operations —
 - Students can register, upload verification documents, browse books, and submit borrow requests.
 - Admins can manage catalog data, approve/decline account requests, and control borrowing workflows.
 - The platform demonstrates production-ready patterns: **App Router**, **server actions**, **Auth.js sessions**, **rate limiting**, and **typed database access** with **Drizzle ORM**.
+- From rate-limiting, DDoS protection, caching, and performance optimizations to multi-media uploads, complex database queries, and advanced error handling, the platform demonstrates real-world engineering practices — including automated workflows with custom notifications for a seamless user and admin experience.
 
 This repository is ideal as:
 
