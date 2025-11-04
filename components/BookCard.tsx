@@ -11,6 +11,7 @@ const BookCard = ({
   genre,
   coverColor,
   coverUrl,
+  // @ts-ignore
   isLoanedBook = false,
 }: Book) => (
   <li className={cn(isLoanedBook && "xs:w-52 w-full")}>
